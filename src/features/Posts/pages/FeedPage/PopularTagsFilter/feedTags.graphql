@@ -1,7 +1,0 @@
-query FeedTags {
-  officialTags {
-    id
-    title
-    icon
-  }
-}
