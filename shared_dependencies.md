@@ -1,21 +1,19 @@
-Shared Dependencies:
+1. "prism schema": This is the data schema that all the files will use to generate the CMS. It will define the structure of the Tournament, TournamentJudge, TournamentPrize, TournamentTrack, TournamentEvent, and HostedImage.
 
-1. Prism Schema: All files will use the prism schema to generate the CMS and perform CRUD operations.
+2. "CRUD operations": All the files will share the same CRUD (Create, Read, Update, Delete) operations. These operations will be used to manipulate the data of the Tournament, TournamentJudge, TournamentPrize, TournamentTrack, TournamentEvent, and HostedImage.
 
-2. React: All files will use React for building the user interface.
+3. "Tailwind + React": All the files will use Tailwind CSS for styling and React for building the user interface.
 
-3. Tailwind: All files will use Tailwind for styling the user interface.
+4. "src/features/CMS": This is the shared directory where all the files will be located.
 
-4. SingleImageUploadInput.tsx: This file will be imported in the HostedImage.js file for the HostedInput fields.
+5. "SingleImageUploadInput.tsx": This is a shared component that will be imported in any of the HostedInput fields. It is a drag and drop image uploader.
 
-5. CRUD Operations: All files will share the same CRUD operations (Create, Read, Update, Delete) for their respective data.
+6. "TypeScript": All the files will be written in TypeScript language.
 
-6. Data Schemas: Each file will have a data schema for Tournament, TournamentJudge, TournamentPrize, TournamentTrack, TournamentEvent, and HostedImage respectively.
+7. "HostedInput fields": These are the fields in the HostedImage file that will use the SingleImageUploadInput.tsx component.
 
-7. DOM Elements: Each file will have DOM elements with unique id names that will be used by JavaScript functions.
+8. "CMS": This is the shared context of all the files, as they are all part of the Content Management System.
 
-8. Message Names: Each file may have message names for error handling and user notifications.
+9. "Tournament, TournamentJudge, TournamentPrize, TournamentTrack, TournamentEvent, HostedImage": These are the shared entities that the CMS will manage. Each of these entities will have its own file.
 
-9. Function Names: Each file will have function names for handling CRUD operations, user interactions, and other functionalities.
-
-10. Folder Structure: All files share the same folder structure “src/features/CMS”.
+10. "React Component Function Names": Each file will likely have a main React component function (e.g., Tournament(), TournamentJudge(), etc.) and potentially other shared helper functions for handling events, state, etc.
